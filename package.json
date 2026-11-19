@@ -1,0 +1,12 @@
+{
+  "name": "nonprofit-social-login-adr",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/example.ts",
+    "test": "node --experimental-strip-types src/nonprofit_login.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
